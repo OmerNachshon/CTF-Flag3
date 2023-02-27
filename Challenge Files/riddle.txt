@@ -1,0 +1,19 @@
+INTRO:Let's define new cypher that is called - RXOR1-Caesar [ stands for - reverse, xor with 1 , caesar ] 
+accept a string , reverse it , xor it with 1's and caesar with a pivot number between 1-25
+
+
+Inside cipher.txt , there is a band name and song that were encrypted with RXOR1-Caesar.
+
+the cipher was divided to 4 parts. (2 for band name , 2 for song name)
+find the year picture.jpeg was taken in order to discover the pivot that was used for caesar encryption for each part of the cipher.
+
+example: cipher = omer , year=1990  --> o-1=n ,m-9=d, e-9=v , r-0=r    ===> ndvr 
+on top of that you will need to reverse and use xor with 1 in order to find the plain text.
+
+insert the plain text as flag (each word separated with _)
+
+Afikoman{artist_song}
+
+hint: what happens when you use XOR a bit with 1 ? (we xor every bit so xor with 127)
+
+note that unprintable characters are represented as Hex
